@@ -1,0 +1,475 @@
+/*-------------------
+header Icon section start
+--------------------*/
+header{
+    width: 1200px;
+    height: 900px;
+    background-color: #FF900E1A;
+    margin: 0;
+   
+}
+.header{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 120px ;
+    padding-right: 120px;
+   justify-content: space-between;
+    
+}
+.header-right{
+    width: 300px;
+    height: 50px;
+    text-align: start;
+}
+.header-left{
+    width: 350px;
+    height: 30px;
+   
+}
+.header-left ul{
+    display: flex;
+    list-style: none;
+    padding-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+    color: #424242;
+    
+}
+/* --------------------
+header icon section end
+----------------------- */
+/* ---------------------
+header txt & image start
+---------------------- */
+.header-txt{
+    width: 400px;
+    
+    text-align: center;
+    align-items: center;
+    padding-left: 400px;
+
+}
+.header-title{
+    font-size: 40px;
+    height: 70px;
+}
+.header-subtitle{
+   
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #727272;
+    
+    
+}
+.header-btn{
+    width:180px ;
+    height: 50px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+}
+.header-img{
+    width: px;
+    height: 440px;
+    background-image: url(../images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 80px 150px;
+    border-radius: 8px;
+
+}
+/* ---------------------
+header txt & image end`
+---------------------- */
+
+/* ---------------------
+feature part start`
+---------------------- */
+.feature{
+    display: flex;
+    margin: 90px 150px ;
+    align-items: center;
+}
+.feature-img{
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.feature-img img{
+    width: 250px;
+    height: 250px;
+    
+    
+}
+.feature-txt{
+    padding-left: 50px;
+}.feature-title{
+    width: 300px;
+    height: 40px;
+    font-size: 30px;
+    color:#727272 ;
+}
+.feature-title .col1{
+    color:#131313;
+}
+.feature-title .col2{
+    color:#FF900E ;
+}
+.feature-subtitle{
+    font-size: 14px;
+    color: #727272;
+}
+.feature-btn{
+    width: 130px;
+    height: 40px;
+    background-color: #FF900E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+/* ---------------------
+feature part end`
+---------------------- */
+/* ---------------------
+experience part start
+---------------------- */
+.experience{
+    display: flex;
+    margin:100px 120px ;
+}
+.exp-txt{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 500px;
+}
+.exp-title{
+    font-size: 30px;
+    border-left: 2px solid #FF900E;
+    width: 300px;
+    height: 70px;
+}
+.exp-subtitle{
+    width: 400px;
+    height: 80px;
+    color: #727272;
+    margin-top: -150px;
+    
+}
+
+.topic{
+    width: 400px;
+    height: 500px;
+    margin-top: -120px;
+    
+}
+.topic-1{
+    background-color: rgb(245, 246, 247);
+    border-radius: 10px;
+}
+.topic-2{
+    background-color: rgb(245, 246, 247);
+    border-radius: 10px;
+}.topic-3{
+    background-color: rgb(245, 246, 247);
+    border-radius: 10px;
+}.topic-4{
+    background-color: rgb(245, 246, 247);
+    border-radius: 10px;
+}
+.topic-title{
+    font-size: 20px;
+    margin-top: -10px;
+}
+.topic-subtitle{
+   color: #727272;
+}
+.exp-image{
+    background-image: url(../images/architect.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 550px;
+    height: 900px;
+}
+.exp-btn{
+   padding-top: 650px;
+   padding-right: 100px;
+}
+.button{
+    width: 230px;
+    height: 150px;
+    background: #FF900E;
+    font-size: 50px;
+    text-align: center;
+    
+    padding-top: 20px;
+    border: none;
+    border-radius: 8px;
+    color: #fff
+    
+
+    
+}
+.exp-btn span{
+    font-size: 16px;
+    margin-top: -30px;
+    
+}
+/* -------------------
+experience part end
+---------------------- */
+/* -------------------
+fact title start
+----------------------- */
+.fact-title{
+    margin-left: 120px;
+    font-weight: 700px;
+    font-size: 35px;
+}
+.fact-subtitle{
+    margin-left: 120px;
+    width: 400px;
+    color: #727272;
+    font-size: 14px;
+
+}
+.icon{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px 150px;
+    
+
+}
+.icon-1{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    
+
+ 
+}
+.icon-1 img{
+    padding-top: 20px;
+}
+.icon-title{
+    font-size: 25px;
+    margin-top: -5px;
+    color: #424242;
+}
+.icon-subtitle{
+    margin-top: -20px;
+    color: #727272;
+}
+.icon-2{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    
+
+ 
+}
+.icon-2 img{
+    padding-top: 20px;
+}
+.icon-3{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    text-align: center;
+    
+
+ 
+}
+.icon-3 img{
+    padding-top: 20px;
+}.icon-4{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    
+
+ 
+}
+.icon-4 img{
+    padding-top: 20px;
+}
+.sponsor{
+    margin:50px 150px;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    padding-left: 300px;
+    
+}
+/* -------------------
+fact title end
+----------------------- */
+/* -------------------
+sponsor part start
+----------------------- */
+.sponsor-title{
+    font-size: 35px;
+}
+.sponsor-subtitle{
+    font-size: 12px;
+    color: #727272;
+    margin-top: -20px;
+   
+}
+.brand-logo{
+    margin: 0 150px;
+    
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 25px;
+    filter: grayscale(100%);
+}
+/* -------------------
+sponsor part end
+----------------------- */
+/* -------------------
+copywright part start
+----------------------- */
+.copywright{
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 1000px;
+    height: 40px;
+    background-color: #FFF4E7;
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+.copy-title{
+    color: #727272;
+    padding-top: 10px;
+}
+/* -------------------
+copywright part end
+----------------------- */
+/* -------------------
+MObile View query
+----------------------- */
+@media only screen and (max-width:688px) {
+    
+    .header{
+        flex-direction: column;
+        padding-left: 40px;
+        width: 100%;
+        
+        
+    }
+    .header-left ul{
+        flex-direction: column;
+        row-gap: 10px;}
+    .header-txt{
+        padding-top: 100px;
+        text-align: start;
+        padding-left: 20px;
+        width: 200px;
+    }    
+    .header-title{
+        padding-bottom: 50px;
+    }
+    .header-img{
+        margin:20px 10px ;
+        width: 300px;
+        height: 300px;
+        margin-top: 100px;
+    }
+    .feature{
+        flex-direction: column-reverse;
+        padding-left: 0px;
+        margin-top: -10px;
+    }
+    .feature-subtitle{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .feature-btn{
+        margin-bottom: 20px;
+    }
+    .feature-img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .experience{
+        margin: 10px;
+        flex-direction: column;
+
+        
+    }
+    .exp-image{
+        margin-top: 50px;
+        width: 400px;
+        height: 400px;
+    }
+    .exp-txt{
+        display: block;
+        
+        
+    }
+    .exp-btn{
+        padding-top: 350px;
+    }
+    .exp-subtitle{
+       padding-top: 150px;
+       width: 300px;
+        
+    }
+    .topic{
+        padding-top: 200px;
+        width: 300px;
+    }
+    .fact-title{
+        margin-left: 10px;
+        padding-top:  100px;
+    }
+    .fact-subtitle{
+       
+            margin-left: 10px;
+            width: 300px;
+        }
+    .icon{
+        grid-template-columns: repeat(2,1fr);
+        margin: 15px;
+        gap: 15px;
+    } 
+    .sponsor{
+        text-align: start;
+        margin: 10px;
+        padding-left: 40px;
+    } 
+    .brand-logo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 60px;
+    } 
+    .copywright{
+        margin-left: 20px;
+        width: 300px;
+        height: 80px;
+        padding-top: 1px;
+    }
+        
+
+
+
+    
+}
+
+ 
+
+
+
+
