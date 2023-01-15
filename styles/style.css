@@ -450,6 +450,7 @@ MObile View query
             width: 300px;
         }
     .icon{
+        width: 300px;
         grid-template-columns: repeat(2,1fr);
         margin: 15px;
         gap: 15px;
